@@ -17,6 +17,7 @@ model.train(
     warmup_epochs=3.0,
     val=True,
     plots=True,
-    exist_ok=True
+    exist_ok=True,
+    patience=10
 )
 
