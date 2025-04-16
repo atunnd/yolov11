@@ -7,7 +7,7 @@ model.train(
     epochs=1000,  
     imgsz=640, 
     batch=128, 
-    device='cpu',  
+    device=0,  
     name="rtdetr",
     optimizer="AdamW",
     cos_lr=True,
