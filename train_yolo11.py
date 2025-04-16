@@ -18,6 +18,6 @@ model.train(
     val=True,
     plots=True,
     exist_ok=True,
-    patience=10
+    patience=20
 )
 
