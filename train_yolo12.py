@@ -6,7 +6,7 @@ model.train(
     data="../dataset/data.yaml",  
     epochs=1000,  
     imgsz=640, 
-    batch=128, 
+    batch=64, 
     device=0,  
     name="yolov12",
     optimizer="AdamW",
