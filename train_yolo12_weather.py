@@ -8,7 +8,7 @@ model.train(
     imgsz=640, 
     batch=64, 
     device=0,  
-    name="yolov12",
+    name="yolov12_weather",
     optimizer="AdamW",
     cos_lr=True,
     lr0=1e-3,
